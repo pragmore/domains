@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20y=%22.9em%22%20font-size=%2290%22%3E🌎%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/blouse.css/dist/blouse.css" crossorigin="anonymous">
-  <style>ul{ font-family: monospace; font-weight: bold; font-size: 2em; line-height: 1.5em; list-style-type: none; float: left; width: 100% } li{ padding: 0; margin: 0; display: inline-block; width: 250px; margin: auto }</style>
+<style>ul, em{ font-family: monospace; font-weight: bold; font-size: 2em; line-height: 1.5em;} ul {list-style-type: none; float: left; width: 100% } li{ padding: 0; margin: 0; display: inline-block; width: 250px; margin: auto }</style>
 </head>
 <body>
   <main class="text-center">
     <h1>🌎 Domains sale!</h1>
     <p class="text-lg">
-      All this domains are for sale, contact us at
+    <span id="domainsText">All this domains</span> are for sale, contact us at
     </p>
     <p class="text-lg">
       <a class="btn main" href="mailto:domains@pragmore.com">✉️ domains@pragmore.com</a>
@@ -69,5 +69,19 @@
       </a>
     </span>
   </footer>
+  <script>
+    const match = window.location.search.match('from=([^&]+)');
+    if (match) {
+      const domain = match[1];
+      document.querySelectorAll('li').forEach(li => {
+        if(li.innerHTML == domain) {
+          const html = `<em>${domain}</em> and all this other domains`;
+          document.getElementById('domainsText').innerHTML = html;
+          li.parentNode.append(document.createElement('li'));
+          li.remove();
+        }
+      });
+    }
+  </script>
 </body>
 </html>
