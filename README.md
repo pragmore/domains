@@ -23,7 +23,6 @@ All this domains are for sale, contact us at [domains@pragmore.com](domains@prag
 * rc.ar
 * mc.ar
 * ts.ar
-* osc.ar
 * edg.ar
 * rez.ar
 * odi.ar
@@ -33,7 +32,6 @@ All this domains are for sale, contact us at [domains@pragmore.com](domains@prag
 * abraz.ar
 * dev.ar
 * api.ar
-* web3.ar
 * lol.ar
 * git.ar
 * now.ar
