@@ -9,7 +9,6 @@ All this domains are for sale, contact us at [domains@pragmore.com](domains@prag
 * rt.ar
 * vm.ar
 * xp.ar
-* sc.ar
 * 2f.ar
 * 1b.ar
 * iq.ar
@@ -24,7 +23,6 @@ All this domains are for sale, contact us at [domains@pragmore.com](domains@prag
 * mc.ar
 * ts.ar
 * by.ar
-* edg.ar
 * rez.ar
 * odi.ar
 * tir.ar
