@@ -31,9 +31,7 @@ All this domains are for sale, contact us at [domains@pragmore.com](domains@prag
 * err.ar
 * atac.ar
 * abraz.ar
-* api.ar
 * lol.ar
-* git.ar
 * now.ar
 * 1ye.ar
 * asd.ar
