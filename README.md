@@ -3,6 +3,7 @@ Domains sale
 
 All this domains are for sale, contact us at [domains@pragmore.com](domains@pragmore.com).
 
+* js.ar
 * mm.ar
 * iz.ar
 * or.ar
@@ -32,7 +33,7 @@ All this domains are for sale, contact us at [domains@pragmore.com](domains@prag
 * atac.ar
 * abraz.ar
 * lol.ar
-* now.ar
+* git.ar
 * 1ye.ar
 * asd.ar
 * jur.ar
